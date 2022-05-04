@@ -1,0 +1,116 @@
+.welcome-page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  min-height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.welcome-page-logo {
+  width: 30px;
+  height: 54px;
+  margin-top: 60px;
+  margin-left: 60px;
+}
+
+.welcome-page-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.welcome-page-info {
+  display: flex;
+  flex-direction: column;
+  max-width: 445px;
+  padding-top: 106px;
+}
+
+.welcome-page-info,
+.welcome-page-controls {
+  margin: 56px 47px 0;
+}
+
+.welcome-page-upper-title,
+.welcome-page-lower-title {
+  margin: 0;
+  font-family: "Dancing Script Bold", cursive;
+  font-size: 40px;
+  line-height: 54px;
+}
+
+.welcome-page-upper-title {
+  color: #48d99e;
+}
+
+.welcome-page-lower-title {
+  color: #000000;
+}
+
+.welcome-page-paragraph {
+  margin: 20px 0 0 0;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.welcome-page-controls {
+  width: 570px;
+}
+
+.welcome-page-toggles-container {
+  box-sizing: border-box;
+  height: 500px;
+  padding-top: 30px;
+  border: 1px solid #0000001a;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.welcome-page-toggle {
+  display: flex;
+  justify-content: space-between;
+  max-width: 379px;
+  margin: 115px auto 0;
+}
+
+.welcome-page-toggle-title {
+  margin: 0;
+  font-family: "Nunito Sans Bold", sans-serif;
+  font-size: 35px;
+}
+
+.welcome-page-bottom-section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.welcome-page-link-button {
+  position: relative;
+  float: right;
+  margin: 100px 25px 100px 0;
+  padding: 23px 45px;
+  border-radius: 10px;
+  font-family: "Avenir", sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #000000;
+  transition: 0.3s;
+  z-index: 1;
+}
+
+.welcome-page-link-button::after {
+  position: absolute;
+  content: "";
+  transform: rotate(49.5deg) skewX(10deg);
+  width: 52px;
+  height: 52px;
+  top: 9.4px;
+  right: -18px;
+  background-color: #000000;
+  border-radius: 12px 6px;
+  z-index: -1;
+}

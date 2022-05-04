@@ -1,0 +1,29 @@
+<div class="main-popup">
+  <div class="main-popup-header">
+    <img class="main-popup-logo" src="../../assets/images/logo.svg" />
+    <span>Meo<b>woof</b></span>
+  </div>
+  <div class="main-popup-upper-controls">
+    <div class="main-popup-upper-toggle">
+      <p class="main-popup-upper-toggle-title">Enable the <b>extension</b></p>
+      <app-toggle-button [size]="'small'"></app-toggle-button>
+    </div>
+    <div class="main-popup-upper-toggle">
+      <p class="main-popup-upper-toggle-title">Enable on <b>{{ activeTabHost }}</b></p>
+      <app-toggle-button [size]="'small'"></app-toggle-button>
+    </div>
+  </div>
+  <div class="main-popup-lower-controls">
+    <p class="main-popup-lower-title">SELECT THE PETS YOU LIKE MOST — OR
+      <span class="main-popup-lower-title-colored">ALL OF THEM!</span>
+    </p>
+    <div class="main-popup-lower-toggle">
+      <p class="main-popup-lower-toggle-title">I love cats</p>
+      <app-toggle-button [size]="'small'"></app-toggle-button>
+    </div>
+    <div class="main-popup-lower-toggle">
+      <p class="main-popup-lower-toggle-title">I love dogs</p>
+      <app-toggle-button [size]="'small'"></app-toggle-button>
+    </div>
+  </div>
+</div>
